@@ -32,6 +32,9 @@ def main():
     else:
             middle = len(stars) // 2
             median = stars[round(middle)]
+            
+    return middle
+
 
 # give user the median
-print("The median rating of Harry's restaurant is", median)
+print("The median rating of Harry's restaurant is", main())

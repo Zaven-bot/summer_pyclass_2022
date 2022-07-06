@@ -18,7 +18,7 @@ def main():
 
     # use list comprehension to turn user input to a list 
     stars = stars.split(",") 
-    stars = float(star) for star in stars] 
+    stars = [float(star) for star in stars] 
 
     # calculate the mean rounded to one decimal point 
     total = 0 
@@ -29,3 +29,5 @@ def main():
 
     # give user the mean 
     print("The mean of the ratings for Harry's restaurant is", mean) 
+
+main()
