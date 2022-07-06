@@ -35,31 +35,3 @@ Variable      | Ouput
  
 
  
-
-
-
-# Independent Coding Project 2
-
-
-## sum.py
-Write a python program that takes a variable x, and calculates x + xx + xxx. You only need to consider “x” integer values with two digits or less.
-
-
-### Main Concepts:
-* Commenting
-* Spacing
-* Cascading code
-* Independent testing
-* Algebra in python
-* Standard output in python
-
-
-### Specifications:
-
-Variable      | Ouput
-------------- | -------------
-0             | Your sum is 0.
-10            | Your sum is 102030. 
-4             | Your sum is 492.
-
-
