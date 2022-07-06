@@ -19,7 +19,7 @@ Print the result within the statement provided in specifications.
 * Standard output in python
 
 
-### Specifications 
+### Specifications: 
 Variable      | Ouput
 ------------- | -------------
 78 (℉)        | The temperature is 78 degrees Fahrenheit in Manoa right now. This is 25.5 degrees Celsius.
@@ -54,7 +54,7 @@ Write a python program that takes a variable x, and calculates x + xx + xxx. You
 * Standard output in python
 
 
-### Specifications
+### Specifications:
 
 Variable      | Ouput
 ------------- | -------------
