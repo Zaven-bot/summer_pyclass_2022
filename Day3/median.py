@@ -11,16 +11,16 @@ import random
 
 def main(): 
     
-    # prompt user for random amount of ratings 
+    # prompt user for a rating a random number of times 
+    # append ratings to a list 
     amount_stars = random.randint(5,10)
     print("Input", amount_stars,"ratings") 
-    stars = input("Input ratings separated by commas:") 
-    
-    # use list comprehension to turn user input to list 
-    stars = stars.split(",") 
-    stars = [float(star) for star in stars]
-    
-    # sor the list 
+    stars = [] 
+    while(len(stars) < amount_stars): 
+        rating = input("Input a rating:")
+        stars.append(float(rating))
+   
+    # sort the list 
     stars.sort() 
     
     # if the length of list is even find median by averaging two middle values 
@@ -33,5 +33,9 @@ def main():
             middle = len(stars) // 2
             median = stars[round(middle)]
 
-# give user the median
-print("The median rating of Harry's restaurant is", median)
+    # give user the median
+    print("The median rating of Harry's restaurant is", median)
+    
+main()
+
+
