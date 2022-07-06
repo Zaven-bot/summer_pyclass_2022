@@ -14,6 +14,7 @@ def main():
     # prompt the user for a rating a random amount of times
     # append ratings into a list 
     amount_stars = random.randint(5,10) 
+
     print("Input", amount_stars, "ratings")
     stars = [] 
     while(len(stars) < amount_stars): 
@@ -28,6 +29,6 @@ def main():
     mean = round(total/divisor, 1) 
 
     # give user the mean 
-    print("The mean of the ratings for Harry's restaurant is", mean)
-    
+    print("The mean of the ratings for Harry's restaurant is", mean) 
+
 main()
