@@ -11,14 +11,15 @@ import random
 
 def main(): 
 
-    # prompt the user for a random amount of ratings 
+    # prompt the user for a rating a random amount of times
+    # append ratings into a list 
     amount_stars = random.randint(5,10) 
-    print("Input", amount_stars, "ratings") 
-    stars = input("Input ratings sepreated by commas:") 
 
-    # use list comprehension to turn user input to a list 
-    stars = stars.split(",") 
-    stars = [float(star) for star in stars] 
+    print("Input", amount_stars, "ratings")
+    stars = [] 
+    while(len(stars) < amount_stars): 
+        rating = input("Input a rating:")
+        stars.append(float(rating))
 
     # calculate the mean rounded to one decimal point 
     total = 0 
