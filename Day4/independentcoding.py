@@ -82,8 +82,8 @@ def time_difference(time2, time1):
 # Notes:      
 def print_layover(layover):
     
-    layover_h = layover / 60
-    layover_m = layover % 60
+    layover_h = int(layover / 60)
+    layover_m = int(layover % 60)
     print("Layover:", layover_h, "hr", layover_m, "min") 
 
 
@@ -95,8 +95,8 @@ def print_layover(layover):
 # Effects:    Prints a message to standard output.
 # Notes:      
 def print_total(total):
-    total_h = total / 60
-    total_m = total % 60
+    total_h = int(total / 60)
+    total_m = int(total % 60)
     print("Total:", total_h, "hr", total_m, "min")
 
 
