@@ -37,7 +37,6 @@ def main():
 
 
 
-
 # time_in_min
 # Parameters: hour, which is the number of hours in a time
 #             min, which is the number of minutes in a given time
@@ -49,6 +48,7 @@ def main():
 def time_in_min(hour, min):
     
     return hour * 60 + min
+    
     
 
 # time_difference
@@ -63,7 +63,7 @@ def time_difference(time2, time1):
     
     return time2 - time1
     
-
+    
 
 # print_layover
 # Parameters: int layover, which is the number of minutes the layover was
@@ -78,6 +78,7 @@ def print_layover(layover):
     layover_m = int(layover % 60)
     print("Layover:", layover_h, "hr", layover_m, "min") 
 
+    
 
 #  print_total
 # Parameters: int total, which is the number of minutes the total trip was
@@ -92,4 +93,5 @@ def print_total(total):
     print("Total:", total_h, "hr", total_m, "min")
 
 
+    
 main()
