@@ -1,3 +1,12 @@
+#
+#   graphing.py 
+#       purpose: analyze and graph data from csv files  
+#     
+#   modified by: Calista Agmata 
+#       date: 07/6/2022
+#
+#
+
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
