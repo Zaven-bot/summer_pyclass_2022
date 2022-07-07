@@ -50,8 +50,7 @@ def user_choice(choice):
         return 1
     if (choice == "s"):
         return 2
-    else:
-        return 0
+    return 0
 
     
     
@@ -65,9 +64,9 @@ def rock_compare(user):
     if (user == 0):
         print("You tied. The computer chose rock.")
     if (user == 1):
-        print("You lost. The computer chose paper.")
+        print("You won! The computer chose rock.")
     if (user == 2):
-        print("You won! The computer chose scissors.")
+        print("You lost. The computer chose rock.")
 
         
         
@@ -79,11 +78,11 @@ def rock_compare(user):
 # Notes:      
 def paper_compare(user):        
     if (user == 0):
-        print("You won! The computer chose rock.")
+        print("You lost. The computer chose paper.")
     if (user == 1):
         print("You tied. The computer chose paper.")
     if (user == 2):
-        print("You lost. The computer chose scissors.")
+        print("You won! The computer chose paper.")
 
 
         
@@ -95,9 +94,9 @@ def paper_compare(user):
 # Notes:    
 def scissors_compare(user):        
     if (user == 0):
-        print("You lost. The computer chose rock.")
+        print("You won! The computer chose scissors.")
     if (user == 1):
-        print("You won! The computer chose paper.")
+        print("You lost. The computer chose scissors.")
     if (user == 2):
         print("You tied. The computer chose scissors.")
         
