@@ -6,14 +6,6 @@
 # Known Bugs: N/A
 
 
-#include <iostream>
-
-# time_in_min(int hour, int min);
-# print_layover(int layover);
-# print_total(int total);
-# time_difference(int time1, int time2);
-# day_change(int num);
-
 def main():
     # Receive flight times
     firsttrip = input("Morning Departure and Arrival: ")
