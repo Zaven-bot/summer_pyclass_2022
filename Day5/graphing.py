@@ -3,7 +3,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 %matplotlib inline
 
-df = pd.read_csv('/User/calista_agmata/Desktop/temperature_pressure.csv')
+file_path = input(Enter the file path to the csv file:") 
+df = pd.read_csv(file_path)
 
 column_one = input("Enter the name of the column you want graphed as the x axis:") 
 column=_two = input("Enter the name of the column you want graphed as the y axis:") 
