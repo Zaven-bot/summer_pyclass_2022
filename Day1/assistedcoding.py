@@ -1,5 +1,5 @@
 # 
-#    manoatemp.py
+#    assistedcoding.py
 #        purpose: visual learning tool for Day 1 Coding Session
 #
 #    modified by: Ian Unebasami
