@@ -1,9 +1,4 @@
-# flights.cpp
-# 
-# Purpose: Calculate the layover time and total time of a trip.
-# Author: Ian Unebasami
-# Credits:
-# Known Bugs: N/A
+# Day 4 Pseudocode
 
 
 ## Flights Pseudocode:
