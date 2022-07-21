@@ -1,11 +1,3 @@
-# 
-#    Assisted Coding Session
-#        purpose: Live coding session for functions
-#
-#    modified by: Ian Unebasami
-#           date: 06/06/2022
-#       
-
 import random
 
 #### Problem 1 ####
@@ -16,14 +8,14 @@ import random
 
 # Executes RPS Game
 def main():
-    robot = comp_choice()
-    user = user_choice(input("Enter rock (r), paper (p), or scissors (s): "))
-    if (robot == 0):
-        rock_compare(user)
-    if (robot == 1):
-        paper_compare(user)
-    if (robot == 2):
-        scissors_compare(user)
+robot = comp_choice()
+user = user_choice(input("Enter rock (r), paper (p), or scissors (s): "))
+if (robot == 0):
+    rock_compare(user)
+if (robot == 1):
+    paper_compare(user)
+if (robot == 2):
+    scissors_compare(user)
 
 
 # comp_choice()
@@ -33,7 +25,7 @@ def main():
 # Effects:    
 # Notes:      
 def comp_choice():
-    return random.randint(1, 3)
+    return random.randint(0, 2)
 
 
 
@@ -44,13 +36,13 @@ def comp_choice():
 # Effects:    
 # Notes:      
 def user_choice(choice):
-    if (choice == "r"):
-        return 0
-    if (choice == "p"):
-        return 1
-    if (choice == "s"):
-        return 2
+if (choice == "r"):
     return 0
+if (choice == "p"):
+    return 1
+if (choice == "s"):
+    return 2
+return 0
 
     
     
@@ -61,12 +53,12 @@ def user_choice(choice):
 # Effects:    Prints appropriate win, lost, or tied message.
 # Notes:      
 def rock_compare(user):        
-    if (user == 0):
-        print("You tied. The computer chose rock.")
-    if (user == 1):
-        print("You won! The computer chose rock.")
-    if (user == 2):
-        print("You lost. The computer chose rock.")
+if (user == 0):
+    print("You tied. The computer chose rock.")
+if (user == 1):
+    print("You won! The computer chose rock.")
+if (user == 2):
+    print("You lost. The computer chose rock.")
 
         
         
@@ -77,12 +69,12 @@ def rock_compare(user):
 # Effects:    Prints appropriate win, lost, or tied message.
 # Notes:      
 def paper_compare(user):        
-    if (user == 0):
-        print("You lost. The computer chose paper.")
-    if (user == 1):
-        print("You tied. The computer chose paper.")
-    if (user == 2):
-        print("You won! The computer chose paper.")
+if (user == 0):
+    print("You lost. The computer chose paper.")
+if (user == 1):
+    print("You tied. The computer chose paper.")
+if (user == 2):
+    print("You won! The computer chose paper.")
 
 
         
@@ -93,13 +85,12 @@ def paper_compare(user):
 # Effects:    Prints appropriate win, lost, or tied message.
 # Notes:    
 def scissors_compare(user):        
-    if (user == 0):
-        print("You won! The computer chose scissors.")
-    if (user == 1):
-        print("You lost. The computer chose scissors.")
-    if (user == 2):
-        print("You tied. The computer chose scissors.")
+if (user == 0):
+    print("You won! The computer chose scissors.")
+if (user == 1):
+    print("You lost. The computer chose scissors.")
+if (user == 2):
+    print("You tied. The computer chose scissors.")
         
         
-
 main()
